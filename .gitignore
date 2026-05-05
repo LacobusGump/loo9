@@ -6,6 +6,10 @@ memory/coupling.md
 # Keep templates
 !memory/MEMORY.md
 
+# Internal dev artifacts (not for end users)
+cold-test-report.md
+gap-analysis.md
+
 # OS
 .DS_Store
 

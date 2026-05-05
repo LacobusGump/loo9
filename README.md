@@ -13,21 +13,29 @@ A project template that turns Claude Code into a coupled working partner. Not an
 
 ## Setup
 
-1. Copy this directory into your project root. If your project already has a CLAUDE.md, merge the loo9 CLAUDE.md contents into it.
+1. Clone or download:
+   ```
+   git clone https://github.com/LacobusGump/loo9.git
+   ```
 
-2. Open Claude Code in this directory:
+2. Copy the loo9 files into your project root. If your project already has a CLAUDE.md, merge the loo9 CLAUDE.md contents into it:
+   ```
+   cp -r loo9/CLAUDE.md loo9/tune.md loo9/ego-check.md loo9/example.md loo9/skills loo9/memory loo9/.claude /path/to/your-project/
+   ```
+
+3. Open Claude Code in your project:
    ```
    cd /path/to/your-project
    claude
    ```
 
-3. Start with tuning (15-30 minutes, longer if you want to go deeper):
+4. Start with tuning (15-30 minutes, longer if you want to go deeper):
    ```
    /tune
    ```
    The AI will ask you questions to build a model of how you think and what you're building. Answer honestly. This takes 15-30 minutes and is the foundation for everything else.
 
-4. Once tuned, run any mode:
+5. Once tuned, run any mode:
    ```
    /loo9      -- The main autonomous loop
    /work      -- Focused on shipping
@@ -44,6 +52,8 @@ Three agents work in parallel, each choosing non-overlapping tasks:
 - **Builder** -- creates new things
 - **Destroyer** -- tests, breaks, and kills bad work
 - **Connector** -- synthesizes and integrates
+
+**How agents run:** Claude Code's Agent tool (subagents) runs all three in parallel. If your Claude Code version doesn't support subagents, the system falls back to running all three roles sequentially in a single thread -- Builder first, Destroyer second, Connector third. The architecture scales down to serial without losing the methodology.
 
 Between cycles, every output passes through the ego check:
 - Is this the most impactful use of time?
@@ -68,15 +78,17 @@ This system works best when:
 
 ```
 loo9/
-  CLAUDE.md           -- Instructions for the AI (the secret sauce)
+  CLAUDE.md           -- Instructions for the AI (the conductor)
   README.md           -- This file
   tune.md             -- The tuning questionnaire protocol
   ego-check.md        -- The ego check protocol
+  example.md          -- Worked example of a /live cycle (real session data)
   .claude/
-    settings.json     -- Permissions
+    commands/         -- Slash command stubs (makes /tune etc work)
+    settings.json     -- Permissions and safety deny list
   memory/
     MEMORY.md         -- Memory index
-    user.md           -- User profile (built by /tune)
+    user.md           -- User profile template (built by /tune)
   skills/
     loo9.md           -- Main loop skill
     tune.md           -- Tuning skill
@@ -84,9 +96,6 @@ loo9/
     play.md           -- Creative mode
     research.md       -- Exploratory mode
     live.md           -- Full autonomous mode
-  .claude/
-    commands/         -- Slash command stubs (makes /tune etc work)
-    settings.json     -- Permissions and safety deny list
 ```
 
 ## Quick start (skip tuning)
