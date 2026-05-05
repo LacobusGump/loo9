@@ -33,7 +33,7 @@ A project template that turns Claude Code into a coupled working partner. Not an
    ```
    /tune
    ```
-   The AI will ask you questions to build a model of how you think and what you're building. Answer honestly. This takes 15-30 minutes and is the foundation for everything else.
+   The AI will ask you questions to build a model of how you think and what you're building. **Honesty is everything here.** Not polite honesty — real honesty. What you actually care about. What actually breaks you. What you do when nobody's watching. The more you trust it with, the better the work gets — including your own clarity. This entire loop is practicing trust. Let it read your project, your docs, your notes. The more it sees, the more it can do. The tuning isn't a form. It's the beginning of a relationship.
 
 5. Once tuned, run any mode:
    ```
