@@ -1,0 +1,19 @@
+# User-specific memory (built during /tune, private)
+memory/user.md
+memory/project.md
+memory/coupling.md
+
+# Keep templates
+!memory/MEMORY.md
+
+# OS
+.DS_Store
+
+# Editor
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.pyc

@@ -1,0 +1,1 @@
+Read the file tune.md and skills/tune.md and follow the tuning protocol. Ask questions one at a time. Build memory files as you go. Read CLAUDE.md first.

@@ -1,0 +1,1 @@
+Read the file skills/research.md and follow its protocol exactly. Also read CLAUDE.md, ego-check.md, and every file in memory/ before starting.
