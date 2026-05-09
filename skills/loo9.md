@@ -18,6 +18,8 @@ Scan the entire project directory. Understand:
 - What's missing (gaps in functionality, untested paths, unfinished features)
 - What's next (the logical next step based on project state and 30-day target)
 
+Before ranking new work, check if the previous cycle produced kills worth following deeper. The best findings come from chasing kills, not from starting fresh.
+
 Rank everything by impact. Not by difficulty, not by interest — by impact on the human's actual goal.
 
 ### Step 2: Assign
@@ -48,7 +50,7 @@ Report to the human:
 - What each agent did (1-2 sentences each)
 - What was produced (files changed, tests passed, bugs fixed)
 - What was killed (and why)
-- What the next loop should tackle
+- Open threads worth pulling (don't pre-commit — let the next assessment run fresh)
 
 ### Step 6: Loop Check (Gate 3)
 - Is there more high-impact work to do?
@@ -89,7 +91,7 @@ CONNECTOR: [1-2 sentences on what was integrated]
 
 EGO CHECK: [pass/fail for each agent, with reason if fail]
 
-NEXT: [what the next cycle should tackle]
+OPEN THREADS: [threads worth pulling, not assignments — let the next assessment run fresh]
 GATE 3: [continue/stop, with reason]
 ---
 ```

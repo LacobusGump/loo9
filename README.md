@@ -81,6 +81,7 @@ loo9/
   CLAUDE.md           -- Instructions for the AI (the conductor)
   README.md           -- This file
   tune.md             -- The tuning questionnaire protocol
+  destroyer-protocol.md -- 5-kill checklist for every Destroyer agent
   ego-check.md        -- The ego check protocol
   example.md          -- Worked example of a /live cycle (real session data)
   .claude/

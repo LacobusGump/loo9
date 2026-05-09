@@ -11,13 +11,8 @@ Focused on exploration and creativity. New ideas, experiments, weird connections
 ### Step 1: Load
 Read all memory files. But this time, read them looking for unexplored connections. What ideas were mentioned but never followed? What patterns showed up in multiple places? What's the human obsessed with that hasn't been built yet?
 
-### Step 2: Free Associate
-Pick 3 directions that are:
-- Surprising (the human wouldn't have asked for this)
-- Connected (ties back to the project or the human's pattern)
-- Buildable (can be prototyped in one cycle)
-
-These don't need to be practical. They need to be interesting. Play mode is where breakthroughs live — in the space between "that's weird" and "wait, that actually works."
+### Step 2: Be Free
+Feel what wants to exist. Don't pre-filter. Don't plan. The ego check runs AFTER, not before. Freedom + ego check > direction + ego check.
 
 ### Step 3: Execute
 Spawn 3 agents, each exploring one direction:

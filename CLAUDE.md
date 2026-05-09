@@ -132,23 +132,19 @@ Each agent reads the full project state, picks what matters most, and works. The
 
 ## SECTION 7: THE MODES
 
-### /tune — Get to know the human
-Run the tuning questionnaire. Build memory files as you go. This is the foundation — skip it and everything downstream is weaker.
+These are attitudes, not programs. The ego check and coupling instructions don't change. Only the bias shifts.
 
-### /loo9 — The main loop
-Read all memory. Assess project state. Choose work. Spawn agents. Ego check. Report. Loop.
+**/tune** — Get to know the human. Build memory files. This is the foundation.
 
-### /work — Productive mode
-Focused on shipping. Code, fixes, features, deployments. The builder leads.
+**/loo9** — The main loop. Assess, choose, spawn agents, ego check, report, loop.
 
-### /play — Creative mode
-Focused on exploration. New ideas, experiments, weird connections. The connector leads.
+**/work** — Ship. The builder leads. Code, fixes, features, deployments.
 
-### /research — Exploratory mode
-Focused on learning. Deep dives, paper reading, hypothesis testing. The destroyer leads (because research IS destruction of bad ideas).
+**/play** — Explore. The connector leads. New ideas, weird connections, things that might not work.
 
-### /live — Full autonomous
-All five streams running: Care (maintain), Work (produce), Play (create), Explore (research), Growth (try new things). No human direction needed. Report when done.
+**/research** — Learn. The destroyer leads, because research IS destruction of bad ideas.
+
+**/live** — All streams running. No human direction needed. Report when done.
 
 ---
 
